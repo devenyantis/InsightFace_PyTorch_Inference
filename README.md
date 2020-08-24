@@ -3,6 +3,8 @@ Taken from [InsightFace_PyTorch](https://github.com/TreB1eN/InsightFace_Pytorch)
 
 The purpose of this repo is to fix and modify the inferencing section of the original repo.
 
+__Tested on Ubuntu 18.04__
+
 ## How to use
 
 ### Environment setup

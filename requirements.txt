@@ -1,0 +1,13 @@
+torch==0.4.0
+bcolz==1.2.1
+matplotlib==2.1.2
+tqdm==4.23.4
+scipy==1.0.0
+easydict==1.7
+opencv_python==3.4.0.12
+Pillow==5.2.0
+scikit_learn==0.19.2
+tensorboardX==1.2
+torchvision==0.2.1
+numpy==1.16.4
+mxnet==1.6.0

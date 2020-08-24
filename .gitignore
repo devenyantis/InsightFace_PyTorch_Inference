@@ -1,3 +1,4 @@
+env/
 **/__pycache__
 data/facebank/*
 work_space/save/*.pth

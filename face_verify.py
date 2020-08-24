@@ -43,6 +43,8 @@ if __name__ == '__main__':
     cap = cv2.VideoCapture(0)
     # cap.set(3,1280) # Modify frame width to 1280
     # cap.set(4,720) # Modify frame height to 720
+    while True:
+        continue
     if args.save:
         video_writer = cv2.VideoWriter(conf.data_path/'recording.avi', cv2.VideoWriter_fourcc(*'XVID'), 6, (1280,720))
         # frame rate 6 due to my laptop is quite slow...

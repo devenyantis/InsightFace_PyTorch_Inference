@@ -1,7 +1,7 @@
 ## InsightFace PyTorch Inference
-Taken from [InsightFace_PyTorch](https://github.com/TreB1eN/InsightFace_Pytorch)
+Taken from [InsightFace_PyTorch](https://github.com/TreB1eN/InsightFace_Pytorch). More explanation and references can be referred to the original repo.
 
-The purpose of this repo is to maintain inferencing section of the original repo for easy debugging and modification
+The purpose of this repo is to fix and modify the inferencing section of the original repo.
 
 ## How to use
 
@@ -16,9 +16,9 @@ The purpose of this repo is to maintain inferencing section of the original repo
 - ```pip install -r requirements.txt```
 
 ### Prepare data
-This step is to prepare face to detect. There are 2 preparation methods.
+This step is to prepare face you want to detect. There are 2 preparation methods.
 
-1. Use preexisting face image by placing them into the directory
+1. Use pre-existing face images by placing them into the directory
 ```
 data/facebank/
             name1/
@@ -29,9 +29,10 @@ data/facebank/
                 photo1.jpg
                 photo2.jpg
 ```
-2. Use webcam to capture new image
+2. Use webcam to capture new images
 ```
 python take_pic.py -n name
+press 't' to capture and 'q' to exit
 ```
 This will create a directory called ```name``` in ```data/facebank```. All captured faces are stored inside it.
 
@@ -41,3 +42,5 @@ This will create a directory called ```name``` in ```data/facebank```. All captu
 To update facebank, use ```-u``` flag
 
 ```python face_verify.py -u```
+
+Press 'q' to exit
